@@ -1,0 +1,124 @@
+.header {
+  height: 120px;
+  padding: 10px 0 20px;
+
+  &__container {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    justify-content:space-between;
+    padding: 0 10px;
+  }
+
+  &__logo {
+    margin-right: 60px;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  &__menu {
+    flex-grow: 1;
+  }
+
+  &__request {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  &__language {
+    display: flex;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #738FA6;
+    font-family: "Oswald", sans-serif;
+    border: 1px solid #B8C6D1;
+    align-self: flex-end;
+    position: relative;
+    height: 36px;
+    width: 80px;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer;
+
+    img {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      right: 10px;
+    }
+  }
+
+  &__language-list {
+    position: absolute;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #738FA6;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    align-self: flex-end;
+    display: none;
+    top: 35px;
+    left: -1px;
+  }
+
+  &__language-li {
+    border: 1px solid #B8C6D1;
+    background-color: #fff;
+    border-bottom: none;
+    height: 36px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+
+    &:first-child {
+      border-top: none;
+    }
+
+    &:last-child {
+      border-bottom: 1px solid #B8C6D1;
+    }
+  }
+
+  &__language-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    background-color: lightgreen;
+    margin-right: 5px;
+  }
+
+  &__request-reference {
+    width: 160px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 5px 20px;
+    background-color: #FA4128;
+  }
+}
+
+.menu {
+  padding: 0 10px;
+  &__list {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__reference {
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #203D51;
+    padding: 5px 20px;
+  }
+}

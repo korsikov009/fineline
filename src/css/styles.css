@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700");
 * {
   outline: none;
   -webkit-box-sizing: border-box;
@@ -11,23 +12,163 @@ ul, li, body {
 a {
   text-decoration: none; }
 
-@font-face {
-  font-family: "Roboto";
-  font-weight: normal;
-  src: url("../fonts/Roboto/Roboto-Regular.ttf"); }
+html {
+  font-size: 10px; }
 
-@font-face {
-  font-family: "Roboto";
-  font-weight: normal;
-  font-style: italic;
-  src: url("../fonts/Roboto/Roboto-Italic.ttf"); }
+body {
+  font-family: "Oswald", sans-serif; }
 
-@font-face {
-  font-family: "Roboto";
-  font-weight: 500;
-  src: url("../fonts/Roboto/Roboto-Medium.ttf"); }
+.header {
+  height: 120px;
+  padding: 10px 0 20px; }
 
-@font-face {
-  font-family: "Roboto";
-  font-weight: bold;
-  src: url("../fonts/Roboto/Roboto-Bold.ttf"); }
+.header__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10px; }
+
+.header__logo {
+  margin-right: 60px;
+  margin-bottom: 5px;
+  display: block; }
+
+.header__menu {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.header__request {
+  width: 160px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.header__language {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #738FA6;
+  font-family: "Oswald", sans-serif;
+  border: 1px solid #B8C6D1;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+  position: relative;
+  height: 36px;
+  width: 80px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer; }
+
+.header__language img {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 10px; }
+
+.header__language-list {
+  position: absolute;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #738FA6;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+  display: none;
+  top: 35px;
+  left: -1px; }
+
+.header__language-li {
+  border: 1px solid #B8C6D1;
+  background-color: #fff;
+  border-bottom: none;
+  height: 36px;
+  width: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  cursor: pointer; }
+
+.header__language-li:first-child {
+  border-top: none; }
+
+.header__language-li:last-child {
+  border-bottom: 1px solid #B8C6D1; }
+
+.header__language-circle {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 11px;
+          border-radius: 11px;
+  background-color: lightgreen;
+  margin-right: 5px; }
+
+.header__request-reference {
+  width: 160px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  padding: 5px 20px;
+  background-color: #FA4128; }
+
+.menu {
+  padding: 0 10px; }
+
+.menu__list {
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.menu__reference {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #203D51;
+  padding: 5px 20px; }

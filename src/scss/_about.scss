@@ -1,6 +1,5 @@
 .about {
-  background-image: linear-gradient(to bottom, #fff 50%, #EFF2F4 50%);
-  height: 1500px;
+  background-image: linear-gradient(to bottom, #fff 54%, #EFF2F4 54%);
 
   &__container {
     height: 100%;
@@ -43,34 +42,66 @@
     display: flex;
     align-items: flex-end;
     margin-top: -140px;
-  }
 
-  &__partners-item {
-    background-color: #0C3145;
-    padding: 35px 30px 50px;
-    color: #fff;
-  }
+    &-item {
+      background-color: #0C3145;
+      padding: 35px 30px 50px;
+      color: #fff;
+    }
 
-  &__partners-photo {
-    font-size: 0;
-  }
+    &-photo {
+      font-size: 0;
+    }
 
-  &__partners-title {
-    font: normal 3rem/1.4 "Oswald", sans-serif;
-    text-transform: uppercase;
-    margin: 0;
-    
-    &-underline {
-      border: none;
-      background-color: #FA4128;
-      height: 3px;
-      width: 30%;
-      margin: 5px 0 0;
+    &-title {
+      font: normal 3rem/1.4 "Oswald", sans-serif;
+      text-transform: uppercase;
+      margin: 0;
+
+      &-underline {
+        border: none;
+        background-color: #FA4128;
+        height: 3px;
+        width: 30%;
+        margin: 5px 0 0;
+      }
+    }
+
+    &-text {
+      font: normal 1.7rem/1.5 "Quicksand", sans-serif;
+      margin: 3rem 0;
     }
   }
 
-  &__partners-text {
-    font: normal 1.7rem/1.5 "Quicksand", sans-serif;
-    margin: 3rem 0;
+  &__quotation {
+    padding: 60px 0 40px;
+    text-align: center;
+
+    &-container {
+      margin-bottom: 35px;
+    }
+
+    &-text {
+      font: italic normal 2.6rem/1.5 "Quicksand", sans-serif;
+      text-align: center;
+      color: #2B9AA3;
+      margin: 0;
+    }
+
+    &-quote {
+      text-align: center;
+      font: italic normal 6rem/1px "Quicksand", sans-serif;
+      color: #2B9AA3;
+
+      &:last-child {
+        text-align: left;
+      }
+    }
+
+    &-name, &-post, &-place {
+      font: 500 1.6rem/1.5 "Quicksand", sans-serif;
+      margin: 0.2rem 0;
+      color: #010D26
+    }
   }
 }

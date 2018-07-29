@@ -203,11 +203,10 @@ body {
   top: -0.6rem; }
 
 .about {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #fff), color-stop(50%, #EFF2F4));
-  background-image: -webkit-linear-gradient(top, #fff 50%, #EFF2F4 50%);
-  background-image: -o-linear-gradient(top, #fff 50%, #EFF2F4 50%);
-  background-image: linear-gradient(to bottom, #fff 50%, #EFF2F4 50%);
-  height: 1500px; }
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(54%, #fff), color-stop(54%, #EFF2F4));
+  background-image: -webkit-linear-gradient(top, #fff 54%, #EFF2F4 54%);
+  background-image: -o-linear-gradient(top, #fff 54%, #EFF2F4 54%);
+  background-image: linear-gradient(to bottom, #fff 54%, #EFF2F4 54%); }
 
 .about__container {
   height: 100%;
@@ -273,3 +272,29 @@ body {
 .about__partners-text {
   font: normal 1.7rem/1.5 "Quicksand", sans-serif;
   margin: 3rem 0; }
+
+.about__quotation {
+  padding: 60px 0 40px;
+  text-align: center; }
+
+.about__quotation-container {
+  margin-bottom: 35px; }
+
+.about__quotation-text {
+  font: italic normal 2.6rem/1.5 "Quicksand", sans-serif;
+  text-align: center;
+  color: #2B9AA3;
+  margin: 0; }
+
+.about__quotation-quote {
+  text-align: center;
+  font: italic normal 6rem/1px "Quicksand", sans-serif;
+  color: #2B9AA3; }
+
+.about__quotation-quote:last-child {
+  text-align: left; }
+
+.about__quotation-name, .about__quotation-post, .about__quotation-place {
+  font: 500 1.6rem/1.5 "Quicksand", sans-serif;
+  margin: 0.2rem 0;
+  color: #010D26; }

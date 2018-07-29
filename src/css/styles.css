@@ -207,18 +207,18 @@ body {
   background-image: -webkit-linear-gradient(top, #fff 50%, #EFF2F4 50%);
   background-image: -o-linear-gradient(top, #fff 50%, #EFF2F4 50%);
   background-image: linear-gradient(to bottom, #fff 50%, #EFF2F4 50%);
-  height: 2000px; }
+  height: 1500px; }
 
 .about__container {
   height: 100%;
   padding-top: 20px; }
 
 .about__info {
-  padding: 25px 0 140px;
+  position: relative;
+  padding: 25px 0 180px;
   color: #203D51;
-  background: url("../img/backgrounds/bg-map-1.png") no-repeat 0% 50%, url("../img/backgrounds/bg-map-2.png") no-repeat 95% 50%;
-  -webkit-background-size: contain;
-          background-size: contain; }
+  background: url("../img/backgrounds/bg-map-1.png") no-repeat 3% 100%, url("../img/backgrounds/bg-map-2.png") no-repeat 95% 20%;
+  z-index: 2; }
 
 .about__info-title {
   font: normal 3rem/1.4 "Oswald", sans-serif;
@@ -238,3 +238,38 @@ body {
 .about__li-note {
   font: 500 2rem/1.4 "Quicksand", sans-serif;
   margin: 0; }
+
+.about__partners {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: -140px; }
+
+.about__partners-item {
+  background-color: #0C3145;
+  padding: 35px 30px 50px;
+  color: #fff; }
+
+.about__partners-photo {
+  font-size: 0; }
+
+.about__partners-title {
+  font: normal 3rem/1.4 "Oswald", sans-serif;
+  text-transform: uppercase;
+  margin: 0; }
+
+.about__partners-title-underline {
+  border: none;
+  background-color: #FA4128;
+  height: 3px;
+  width: 30%;
+  margin: 5px 0 0; }
+
+.about__partners-text {
+  font: normal 1.7rem/1.5 "Quicksand", sans-serif;
+  margin: 3rem 0; }

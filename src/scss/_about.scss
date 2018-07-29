@@ -1,6 +1,6 @@
 .about {
-  background-image: linear-gradient(to bottom, #fff 50%, #EFF2F4 50% );
-  height: 2000px;
+  background-image: linear-gradient(to bottom, #fff 50%, #EFF2F4 50%);
+  height: 1500px;
 
   &__container {
     height: 100%;
@@ -8,10 +8,11 @@
   }
 
   &__info {
-    padding: 25px 0 140px;
+    position: relative;
+    padding: 25px 0 180px;
     color: #203D51;
-    background: url('../img/backgrounds/bg-map-1.png') no-repeat 0% 50%, url('../img/backgrounds/bg-map-2.png') no-repeat 95% 50%;
-    background-size: contain;
+    background: url('../img/backgrounds/bg-map-1.png') no-repeat 3% 100%, url('../img/backgrounds/bg-map-2.png') no-repeat 95% 20%;
+    z-index: 2;
   }
 
   &__info-title {
@@ -29,12 +30,47 @@
 
     &-figure {
       font: 500 7rem/1 "Oswald", sans-serif;
-      margin: 1rem 0 ;
+      margin: 1rem 0;
     }
 
     &-note {
       font: 500 2rem/1.4 "Quicksand", sans-serif;
       margin: 0;
     }
+  }
+
+  &__partners {
+    display: flex;
+    align-items: flex-end;
+    margin-top: -140px;
+  }
+
+  &__partners-item {
+    background-color: #0C3145;
+    padding: 35px 30px 50px;
+    color: #fff;
+  }
+
+  &__partners-photo {
+    font-size: 0;
+  }
+
+  &__partners-title {
+    font: normal 3rem/1.4 "Oswald", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    
+    &-underline {
+      border: none;
+      background-color: #FA4128;
+      height: 3px;
+      width: 30%;
+      margin: 5px 0 0;
+    }
+  }
+
+  &__partners-text {
+    font: normal 1.7rem/1.5 "Quicksand", sans-serif;
+    margin: 3rem 0;
   }
 }

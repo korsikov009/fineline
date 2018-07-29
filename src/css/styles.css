@@ -35,8 +35,7 @@ body {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 10px; }
+          justify-content: space-between; }
 
 .header__logo {
   margin-right: 60px;
@@ -172,3 +171,30 @@ body {
   text-transform: uppercase;
   color: #203D51;
   padding: 5px 20px; }
+
+.preview {
+  background: url("../img/backgrounds/index-banner.png") no-repeat 50% 50%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  min-height: 500px; }
+
+.preview__container {
+  height: 100%;
+  padding-top: 60px; }
+
+.preview__text {
+  font: 500 3rem/1.7 "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #718EA5;
+  margin: 1rem 0; }
+
+.preview__title {
+  font: 500 9rem/1 "Oswald", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  color: #0C3145; }
+
+.preview__title-bracket {
+  font-size: 10rem;
+  position: relative;
+  top: -0.6rem; }

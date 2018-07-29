@@ -1,0 +1,40 @@
+.about {
+  background-image: linear-gradient(to bottom, #fff 50%, #EFF2F4 50% );
+  height: 2000px;
+
+  &__container {
+    height: 100%;
+    padding-top: 20px;
+  }
+
+  &__info {
+    padding: 25px 0 140px;
+    color: #203D51;
+    background: url('../img/backgrounds/bg-map-1.png') no-repeat 0% 50%, url('../img/backgrounds/bg-map-2.png') no-repeat 95% 50%;
+    background-size: contain;
+  }
+
+  &__info-title {
+    font: normal 3rem/1.4 "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__list {
+    margin-top: 50px;
+  }
+
+  &__li {
+    text-align: center;
+
+    &-figure {
+      font: 500 7rem/1 "Oswald", sans-serif;
+      margin: 1rem 0 ;
+    }
+
+    &-note {
+      font: 500 2rem/1.4 "Quicksand", sans-serif;
+      margin: 0;
+    }
+  }
+}

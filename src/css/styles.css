@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
 * {
   outline: none;
   -webkit-box-sizing: border-box;
@@ -198,3 +201,40 @@ body {
   font-size: 10rem;
   position: relative;
   top: -0.6rem; }
+
+.about {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #fff), color-stop(50%, #EFF2F4));
+  background-image: -webkit-linear-gradient(top, #fff 50%, #EFF2F4 50%);
+  background-image: -o-linear-gradient(top, #fff 50%, #EFF2F4 50%);
+  background-image: linear-gradient(to bottom, #fff 50%, #EFF2F4 50%);
+  height: 2000px; }
+
+.about__container {
+  height: 100%;
+  padding-top: 20px; }
+
+.about__info {
+  padding: 25px 0 140px;
+  color: #203D51;
+  background: url("../img/backgrounds/bg-map-1.png") no-repeat 0% 50%, url("../img/backgrounds/bg-map-2.png") no-repeat 95% 50%;
+  -webkit-background-size: contain;
+          background-size: contain; }
+
+.about__info-title {
+  font: normal 3rem/1.4 "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+
+.about__list {
+  margin-top: 50px; }
+
+.about__li {
+  text-align: center; }
+
+.about__li-figure {
+  font: 500 7rem/1 "Oswald", sans-serif;
+  margin: 1rem 0; }
+
+.about__li-note {
+  font: 500 2rem/1.4 "Quicksand", sans-serif;
+  margin: 0; }

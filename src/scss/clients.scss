@@ -1,0 +1,29 @@
+.clients {
+  &__container {
+    padding: {
+      top: 70px;
+      bottom: 70px;
+    }
+    max-width: 1380px;
+  }
+
+  &__title {
+    font: normal 3rem/1.4 "Oswald", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+  }
+
+  &__underline {
+    border: none;
+    background-color: #FA4128;
+    height: 4px;
+    width: 8%;
+    margin: 8px auto 20px;
+  }
+
+  &__item {
+    text-align: center;
+    margin: 35px 5px 0;
+  }
+}

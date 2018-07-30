@@ -401,7 +401,8 @@ body {
   font: normal 3rem/1.4 "Oswald", sans-serif;
   text-transform: uppercase;
   margin: 0;
-  text-align: center; }
+  text-align: center;
+  color: #203D51; }
 
 .clients__underline {
   border: none;
@@ -413,3 +414,98 @@ body {
 .clients__item {
   text-align: center;
   margin: 35px 5px 0; }
+
+.news {
+  background-color: #072433; }
+
+.news__container {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.news__title {
+  font: normal 3rem/1.4 "Oswald", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  color: #fff; }
+
+.news__underline {
+  border: none;
+  background-color: #FA4128;
+  height: 4px;
+  width: 9%;
+  margin: 8px auto 40px; }
+
+.news__all {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3px;
+  border: 1px solid #fff;
+  font: normal 1.4rem/1.4 "Quicksand", sans-serif;
+  text-transform: uppercase;
+  color: #fff; }
+
+.news-item__img {
+  font-size: 0; }
+
+.news-item__body {
+  background-color: #fff;
+  height: 180px;
+  padding: 15px;
+  position: relative; }
+
+.news-item__category {
+  font: normal 1.5rem/1 "Oswald", sans-serif;
+  margin: 0;
+  text-transform: uppercase; }
+
+.news-item__category_news {
+  color: #FA4128; }
+
+.news-item__category_press-release {
+  color: #203D51; }
+
+.news-item__date {
+  color: #718EA5;
+  font: 500 1.4rem/1.4 "Quicksand", sans-serif;
+  margin: 0.8rem 0; }
+
+.news-item__text {
+  font: normal 1.7rem/1.4 "Quicksand", sans-serif;
+  color: #203D51;
+  margin: 0.9rem 0; }
+
+.news-item__more {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #456A89;
+  font: 500 1.4rem/1.4 "Quicksand", sans-serif;
+  text-transform: uppercase; }
+
+.news-item__more::after {
+  content: '\25ba';
+  display: inline-block;
+  -webkit-transform: scaleX(0.7);
+      -ms-transform: scaleX(0.7);
+          transform: scaleX(0.7);
+  color: #456A89;
+  font-size: 1.2rem;
+  position: relative;
+  margin-left: 1rem;
+  top: -2px; }

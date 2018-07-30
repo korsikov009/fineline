@@ -1,0 +1,46 @@
+.locations__container {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.locations__info {
+  color: #203D51; }
+
+.locations__title {
+  font: normal 3rem/1.4 "Oswald", sans-serif;
+  text-transform: uppercase;
+  margin: 0; }
+
+.locations__underline {
+  border: none;
+  background-color: #FA4128;
+  height: 4px;
+  width: 23%;
+  margin: 8px 0 0; }
+
+.locations__text {
+  font: normal 1.7rem/1.45 "Quicksand", sans-serif;
+  margin: 2rem 0 3rem; }
+
+.locations__btn {
+  padding-top: 2px;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #FA4128;
+  color: #FA4128;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: 500 1.4rem/1.5 "Quicksand", sans-serif;
+  text-transform: uppercase; }
+
+.locations__picture {
+  padding-top: 20px; }

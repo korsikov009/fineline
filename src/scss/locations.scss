@@ -7,6 +7,9 @@
     }
   }
 
+  &__picture {
+  }
+
   &__info {
     color: #203D51;
   }
@@ -40,9 +43,5 @@
     justify-content: center;
     font: 500 1.4rem/1.5 "Quicksand", sans-serif;
     text-transform: uppercase;
-  }
-
-  &__picture {
-    padding-top: 20px;
   }
 }

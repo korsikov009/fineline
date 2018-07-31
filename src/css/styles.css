@@ -598,7 +598,8 @@ body {
   border: none;
   background-color: #FA4128;
   color: #fff;
-  padding-top: 2px; }
+  padding-top: 2px;
+  cursor: pointer; }
 
 .footer {
   background-color: #EFF2F4; }

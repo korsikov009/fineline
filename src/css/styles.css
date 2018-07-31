@@ -509,3 +509,93 @@ body {
   position: relative;
   margin-left: 1rem;
   top: -2px; }
+
+.contacts__container {
+  width: 960px;
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.contacts__title {
+  font: normal 3rem/1.4 "Oswald", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  color: #203D51; }
+
+.contacts__underline {
+  border: none;
+  background-color: #FA4128;
+  height: 4px;
+  width: 9%;
+  margin: 8px auto 20px; }
+
+.contacts__explanation {
+  font: 500 2rem/1.4 "Quicksand", sans-serif;
+  color: #203D51;
+  text-align: center;
+  margin: 2.5rem 0 3rem; }
+
+.form__item {
+  height: 72px;
+  margin-bottom: 20px; }
+
+.form__item:nth-child(1), .form__item:nth-child(2) {
+  min-width: 25%; }
+
+.form__text, .form__select, .form__message {
+  background-color: #F5F7F8;
+  border: 1px solid #A9A9A9;
+  height: 100%;
+  width: 100%;
+  font: 500 1.7rem/1.4 "Quicksand", sans-serif;
+  border-left: 2px solid #FA4128;
+  color: #203D51;
+  padding: 15px; }
+
+.form__text::-webkit-input-placeholder, .form__select::-webkit-input-placeholder, .form__message::-webkit-input-placeholder {
+  color: #7F99AE; }
+
+.form__text::-moz-placeholder, .form__select::-moz-placeholder, .form__message::-moz-placeholder {
+  color: #7F99AE; }
+
+.form__text:-ms-input-placeholder, .form__select:-ms-input-placeholder, .form__message:-ms-input-placeholder {
+  color: #7F99AE; }
+
+.form__text::-ms-input-placeholder, .form__select::-ms-input-placeholder, .form__message::-ms-input-placeholder {
+  color: #7F99AE; }
+
+.form__text::placeholder, .form__select::placeholder, .form__message::placeholder {
+  color: #7F99AE; }
+
+.form__company-name, .form__message {
+  border-left: 1px solid #A9A9A9; }
+
+.form__select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+
+.form__select-item {
+  display: block;
+  padding: 20px; }
+
+.form__message {
+  resize: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2.3rem;
+  overflow: hidden; }
+
+.form__submit {
+  display: block;
+  margin: 15px auto 0;
+  width: 160px;
+  height: 72px;
+  font: 500 1.7rem/1.4 "Quicksand", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  background-color: #FA4128;
+  color: #fff;
+  padding-top: 2px; }

@@ -1,31 +1,36 @@
-//@font-face {
-//  font-family: "Roboto";
-//  font-weight: normal;
-//  src: url('../fonts/Roboto/Roboto-Regular.ttf');
-//}
-//
-//@font-face {
-//  font-family: "Roboto";
-//  font-weight: normal;
-//  font-style: italic;
-//  src: url('../fonts/Roboto/Roboto-Italic.ttf');
-//}
-//
-//@font-face {
-//  font-family: "Roboto";
-//  font-weight: 500;
-//  src: url('../fonts/Roboto/Roboto-Medium.ttf');
-//}
-//
-//@font-face {
-//  font-family: "Roboto";
-//  font-weight: bold;
-//  src: url('../fonts/Roboto/Roboto-Bold.ttf');
-//}
+@font-face {
+  font-family: "Oswald";
+  font-weight: normal;
+  src: url('../fonts/Oswald/Oswald-Regular.ttf');
+}
 
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
-//oswald normal, 500, 300
-//Quicksand normal, 500
+@font-face {
+  font-family: "Oswald";
+  font-weight: normal;
+  font-style: italic;
+  src: url('../fonts/Oswald/Oswald-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-weight: 500;
+  src: url('../fonts/Oswald/Oswald-Medium.ttf');
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-weight: 300;
+  src: url('../fonts/Oswald/Oswald-Light.ttf');
+}
+
+@font-face {
+  font-family: "Quicksand";
+  font-weight: normal;
+  src: url('../fonts/Quicksand/Quicksand-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Quicksand";
+  font-weight: 500;
+  src: url('../fonts/Quicksand/Quicksand-Medium.ttf');
+}

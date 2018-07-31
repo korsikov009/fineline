@@ -5,3 +5,23 @@ html {
 body {
   font-family: "Oswald", sans-serif;
 }
+
+
+
+// media mixin
+@mixin media($width) {
+  @media only screen and (max-width: $width) {
+    @content;
+  }
+}
+
+
+// Replace bootstrap container
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+}

@@ -42,6 +42,7 @@
   }
 
   &__li {
+    display: flex;
     margin: 1rem 0 1rem -0.5rem;
     &::before {
       content: '\25ba';
@@ -50,7 +51,6 @@
       color: #FA4128;
       font-size: 1.5rem;
       position: relative;
-      top: -2px;
       margin-right: 0.5rem;
     }
   }

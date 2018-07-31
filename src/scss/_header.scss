@@ -2,6 +2,10 @@
   height: 120px;
   padding: 10px 0 20px;
 
+  @include media(1200px) {
+    padding: 15px 0 20px;
+  }
+
   &__container {
     display: flex;
     align-items: flex-end;
@@ -13,6 +17,14 @@
     margin-right: 60px;
     margin-bottom: 5px;
     display: block;
+
+    @include media(1200px) {
+      //margin-right: 40px;
+
+      img {
+        width: 100%;
+      }
+    }
   }
 
   &__menu {
@@ -25,6 +37,11 @@
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
+
+    @include media(1200px) {
+      width: 130px;
+      margin-left: 20px;
+    }
   }
 
   &__language {
@@ -100,6 +117,10 @@
     text-align: center;
     padding: 5px 20px;
     background-color: #FA4128;
+
+    @include media(1200px) {
+      padding: 5px;
+    }
   }
 }
 
@@ -119,5 +140,9 @@
     text-transform: uppercase;
     color: #203D51;
     padding: 5px 20px;
+
+    @include media(1200px) {
+      padding: 5px;
+    }
   }
 }

@@ -26,5 +26,11 @@
   &__item {
     text-align: center;
     margin: 35px 5px 0;
+
+    @include media(1200px) {
+      img {
+        width: 100%;
+      }
+    }
   }
 }

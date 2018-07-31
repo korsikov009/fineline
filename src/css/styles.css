@@ -56,9 +56,18 @@ body {
   margin-left: auto;
   max-width: 1140px; }
 
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px; } }
+
 .header {
   height: 120px;
   padding: 10px 0 20px; }
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    padding: 15px 0 20px; } }
 
 .header__container {
   display: -webkit-box;
@@ -79,6 +88,10 @@ body {
   margin-right: 60px;
   margin-bottom: 5px;
   display: block; }
+
+@media only screen and (max-width: 1200px) {
+  .header__logo img {
+    width: 100%; } }
 
 .header__menu {
   -webkit-box-flex: 1;
@@ -102,6 +115,11 @@ body {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+@media only screen and (max-width: 1200px) {
+  .header__request {
+    width: 130px;
+    margin-left: 20px; } }
 
 .header__language {
   display: -webkit-box;
@@ -187,6 +205,10 @@ body {
   padding: 5px 20px;
   background-color: #FA4128; }
 
+@media only screen and (max-width: 1200px) {
+  .header__request-reference {
+    padding: 5px; } }
+
 .menu {
   padding: 0 10px; }
 
@@ -209,6 +231,10 @@ body {
   text-transform: uppercase;
   color: #203D51;
   padding: 5px 20px; }
+
+@media only screen and (max-width: 1200px) {
+  .menu__reference {
+    padding: 5px; } }
 
 .preview {
   background: url("../img/backgrounds/index-banner.png") no-repeat 50% 50%;
@@ -254,6 +280,11 @@ body {
   background: url("../img/backgrounds/bg-map-1.png") no-repeat 3% 100%, url("../img/backgrounds/bg-map-2.png") no-repeat 95% 20%;
   z-index: 2; }
 
+@media only screen and (max-width: 1200px) {
+  .about__info {
+    background: url("../img/backgrounds/bg-map-1.png") no-repeat 0 100%, url("../img/backgrounds/bg-map-2.png") no-repeat 100% 20%;
+    padding-bottom: 100px; } }
+
 .about__info-title {
   font: normal 3rem/1.4 "Oswald", sans-serif;
   text-transform: uppercase;
@@ -284,13 +315,28 @@ body {
           align-items: flex-end;
   margin-top: -140px; }
 
+@media only screen and (max-width: 1200px) {
+  .about__partners {
+    margin-top: -80px; } }
+
 .about__partners-item {
   background-color: #0C3145;
   padding: 35px 30px 50px;
   color: #fff; }
 
+@media only screen and (max-width: 1200px) {
+  .about__partners-item {
+    width: 40%;
+    padding: 2% 3% 1%; } }
+
 .about__partners-photo {
   font-size: 0; }
+
+@media only screen and (max-width: 1200px) {
+  .about__partners-photo {
+    width: 30%; }
+  .about__partners-photo img {
+    width: 100%; } }
 
 .about__partners-title {
   font: normal 3rem/1.4 "Oswald", sans-serif;
@@ -413,6 +459,10 @@ body {
   margin: 0; }
 
 .excellence__li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin: 1rem 0 1rem -0.5rem; }
 
 .excellence__li::before {
@@ -424,7 +474,6 @@ body {
   color: #FA4128;
   font-size: 1.5rem;
   position: relative;
-  top: -2px;
   margin-right: 0.5rem; }
 
 .clients__container {
@@ -449,6 +498,10 @@ body {
 .clients__item {
   text-align: center;
   margin: 35px 5px 0; }
+
+@media only screen and (max-width: 1200px) {
+  .clients__item img {
+    width: 100%; } }
 
 .news {
   background-color: #072433; }
@@ -498,11 +551,18 @@ body {
 .news-item__img {
   font-size: 0; }
 
+.news-item__img img {
+  width: 100%; }
+
 .news-item__body {
   background-color: #fff;
   height: 180px;
   padding: 15px;
   position: relative; }
+
+@media only screen and (max-width: 1200px) {
+  .news-item__body {
+    height: 200px; } }
 
 .news-item__category {
   font: normal 1.5rem/1 "Oswald", sans-serif;
@@ -667,6 +727,13 @@ body {
   font: 500 1.5rem/1.4 "Quicksand", sans-serif;
   background-color: #FA4128;
   margin-bottom: 15px; }
+
+.footer__request br {
+  display: none; }
+
+@media only screen and (max-width: 1160px) {
+  .footer__request br {
+    display: block; } }
 
 .footer__contact {
   font: normal 1.5rem/1.4 "Oswald", sans-serif;

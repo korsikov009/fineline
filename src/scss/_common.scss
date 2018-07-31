@@ -1,18 +1,22 @@
-html {
-  font-size: 10px;
-}
-
-body {
-  font-family: "Oswald", sans-serif;
-}
-
-
-
 // media mixin
 @mixin media($width) {
   @media only screen and (max-width: $width) {
     @content;
   }
+}
+
+
+
+html {
+  font-size: 10px;
+
+  //@include media(1200px) {
+  //  font-size: 11px;
+  //}
+}
+
+body {
+  font-family: "Oswald", sans-serif;
 }
 
 
@@ -24,4 +28,9 @@ body {
   margin-right: auto;
   margin-left: auto;
   max-width: 1140px;
+
+  @include media(1200px) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }

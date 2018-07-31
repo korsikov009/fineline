@@ -12,6 +12,11 @@
     color: #203D51;
     background: url('../img/backgrounds/bg-map-1.png') no-repeat 3% 100%, url('../img/backgrounds/bg-map-2.png') no-repeat 95% 20%;
     z-index: 2;
+
+    @include media(1200px) {
+      background: url('../img/backgrounds/bg-map-1.png') no-repeat 0 100%, url('../img/backgrounds/bg-map-2.png') no-repeat 100% 20%;
+      padding-bottom: 100px;
+    }
   }
 
   &__info-title {
@@ -43,14 +48,31 @@
     align-items: flex-end;
     margin-top: -140px;
 
+    @include media(1200px) {
+      margin-top: -80px;
+    }
+
     &-item {
       background-color: #0C3145;
       padding: 35px 30px 50px;
       color: #fff;
+
+      @include media(1200px) {
+        width: 40%;
+        padding: 2% 3% 1%;
+      }
     }
 
     &-photo {
       font-size: 0;
+
+      @include media(1200px) {
+        width: 30%;
+
+        img {
+          width: 100%;
+        }
+      }
     }
 
     &-title {

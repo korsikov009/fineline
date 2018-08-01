@@ -47,7 +47,6 @@
     height: 100%;
     width: 100%;
     font: 500 1.7rem/1.4 "Quicksand", sans-serif;
-    border-left: 2px solid #FA4128;
     color: #203D51;
     padding: 15px;
 
@@ -55,11 +54,11 @@
       color: #7F99AE;
       opacity: 1;
     }
-  }
 
-
-  &__company-name, &__message {
-    border-left: 1px solid #A9A9A9;
+    &:focus {
+      border-left: 2px solid #FA4128;
+      padding-left: 14px;
+    }
   }
 
   &__select {

@@ -40,6 +40,39 @@
     font: normal 1.4rem/1.4 "Quicksand", sans-serif;
     text-transform: uppercase;
     color: #fff;
+    transition: 0.3s;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #fff;
+      transform: scaleY(0);
+      transform-origin: 50% 0;
+      transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out;
+    }
+
+    &:hover {
+      color: #072433;
+      span {
+        z-index: 1;
+      }
+    }
+
+    &:hover:after {
+      transform: scaleY(1);
+    }
+
+    &:active {
+      opacity: 0.7;
+    }
   }
 }
 
@@ -104,8 +137,17 @@
       color: #456A89;
       font-size: 1.2rem;
       position: relative;
-      margin-left: 1rem;
+      margin-left: 0.8rem;
       top: -2px;
+      transition: 0.08s;
+    }
+
+    &:hover:after {
+      margin-left: 1.3rem;
+    }
+
+    &:active {
+      opacity: 0.7;
     }
   }
 }

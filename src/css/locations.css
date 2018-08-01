@@ -1,0 +1,85 @@
+.locations__container {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.locations__info {
+  color: #203D51; }
+
+.locations__title {
+  font: normal 3rem/1.4 "Oswald", sans-serif;
+  text-transform: uppercase;
+  margin: 0; }
+
+.locations__underline {
+  border: none;
+  background-color: #FA4128;
+  height: 4px;
+  width: 23%;
+  margin: 8px 0 0; }
+
+.locations__text {
+  font: normal 1.7rem/1.45 "Quicksand", sans-serif;
+  margin: 2rem 0 3rem; }
+
+.locations__btn {
+  padding-top: 2px;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #FA4128;
+  color: #FA4128;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: 500 1.4rem/1.5 "Quicksand", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  position: relative; }
+
+.locations__btn::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #FA4128;
+  -webkit-transform: scaleY(0);
+      -ms-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+      -ms-transform-origin: 50% 0;
+          transform-origin: 50% 0;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+       -o-transition-timing-function: ease-out;
+          transition-timing-function: ease-out; }
+
+.locations__btn:hover {
+  color: #fff; }
+
+.locations__btn:hover:after {
+  -webkit-transform: scaleY(1);
+      -ms-transform: scaleY(1);
+          transform: scaleY(1); }
+
+.locations__btn:active {
+  opacity: 0.7; }

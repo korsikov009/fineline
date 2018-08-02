@@ -53,16 +53,23 @@
     position: relative;
     height: 36px;
     width: 80px;
-    align-items: center;
-    padding: 10px;
     background-color: #fff;
     cursor: pointer;
+
+    &-selected {
+      height: 100%;
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
 
     img {
       position: absolute;
       width: 10px;
       height: 10px;
       right: 10px;
+      top: 12px;
     }
   }
 
@@ -89,6 +96,11 @@
     align-items: center;
     padding: 10px;
     cursor: pointer;
+
+    &:hover {
+      //font-weight: normal;
+      background-color: #F5F7F8;
+    }
 
     &:first-child {
       border-top: none;

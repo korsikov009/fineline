@@ -38,6 +38,7 @@ $(document).ready(function() {
     ];
 
     var select = new Select();
+    var language = new Language('header__language', 'header__language-selected','header__language-list', 'header__language-li')
 
     select.createOptions(array, 'form__select', 'form__option');
 
@@ -46,4 +47,6 @@ $(document).ready(function() {
     });
 
     select.reverseArrowDown('.jq-selectbox__dropdown ul', '.jq-selectbox__dropdown');
+
+
 });

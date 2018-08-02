@@ -59,7 +59,7 @@ gulp.task('img', function() {
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()]
         })))
-        .pipe(gulp.dest('build/img'));
+        .pipe(gulp.dest('src/img'));
 });
 
 gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
